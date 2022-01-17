@@ -28,7 +28,8 @@ def mark_attendence(name):
 
 id = 0
 # names related to ids:
-names = ['None', 'Piyali', 'Shiuli', 'Rahul', 'Z', 'W'] 
+names = ['None', 'Dipprokash Sardar','Anusha Sil', 'Sujata De','None','Ranjita Chakraborty','Manisha Ghosh','Anupam Jana','Masidur Rahaman','Shiuli Dey','Paromita Chel','Soumen Khara','Arnab Mondal',
+'Mansur Alam','Subharanjan Das','Sumit Paul','Subhajit Das','Arit Biswas','Susmita Dey','Piyali Bhunia','Sudip Roy','Subham Pradhan','None','Sumit Das','Indrani Maity','Pradip Das','Arka Saha','Arnab Koley','Subrata Jana','Mouli Mondal','Sushma Tiwary','Debabrata Doloi','Rahul Roy','Hrikdhiman Dutta','Anupam Rakshit'] 
 
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
