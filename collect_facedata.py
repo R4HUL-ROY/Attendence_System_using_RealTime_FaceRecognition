@@ -44,7 +44,7 @@ while True:
     k = cv2.waitKey(10) & 0xff # Press 'ESC' for exiting video
     if k == 27:
         break
-    elif count >= 50:
+    elif count >= 350:
         break
 
 print("Exiting Program")
