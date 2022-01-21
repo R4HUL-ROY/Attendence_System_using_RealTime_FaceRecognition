@@ -68,7 +68,7 @@ while True:
         cv2.putText(img, str(confidence), (x+5,y+h-5), font, 1, (255,255,0), 1)
         
     if str(id) in names:  
-            mark_attendence(str(id))
+        mark_attendence(str(id))
     cv2.imshow('camera',img) 
 
     k = cv2.waitKey(10) & 0xff # Press 'ESC' for exiting video

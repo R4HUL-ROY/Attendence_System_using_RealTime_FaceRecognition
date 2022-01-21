@@ -4,22 +4,17 @@ from PIL import Image
 import os
 
 path="dataset"
-
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
-
 def getImagesAndLabels(path):
-
     imagePaths = [os.path.join(path,f) for f in os.listdir(path)]     
     faceSamples=[]
     ids = []
 
     for imagePath in imagePaths:
-
         PIL_img = Image.open(imagePath).convert('L')
         img_numpy = np.array(PIL_img,'uint8')
-        
         id = int(os.path.split(imagePath)[-1].split(".")[1])
         faces = detector.detectMultiScale(img_numpy)
 
@@ -28,6 +23,9 @@ def getImagesAndLabels(path):
             ids.append(id)
 
     return faceSamples,ids
+
+if not os.path.exists('trainer'):
+    os.makedirs('trainer')
 
 print ("\n [INFO] Training faces. It will take a few seconds. Wait ...")
 faces,ids = getImagesAndLabels(path)
