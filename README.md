@@ -64,14 +64,14 @@ Software Used -
    1. First we have to collect the face data
     
        a) From the camera
+       
        b) From the video
     
    2. Our second step is to pre-processing our image
     
-       a) Haar-cascade Classifier
-       b) Histogram Equilisaton(Optional)
+       Histogram Equilisaton(Optional)
 
-   3. Train the face data that we have in our databse
+   3. Train the face data that we have in our database
  
    4. Recognise them and by their image and give attendance
   
