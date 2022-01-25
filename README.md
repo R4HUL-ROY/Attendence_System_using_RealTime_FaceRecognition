@@ -47,35 +47,40 @@ Software Used -
  
 ## Test Run 🚴
 
-After creating the enviroment and installing the packages, open the IDE terminal/command line to run the program. Using the steps below.
+  After creating the enviroment and installing the packages, open the IDE terminal/command line to run the program. Using the steps below.
 
- • [collect_facedata.py](/Users/hrikdhimandutta/Desktop/project/Attendence_System_using_RealTime_FaceRecognition/collect_facedata.py)
+   • [collect_facedata.py](/Users/hrikdhimandutta/Desktop/project/Attendence_System_using_RealTime_FaceRecognition/collect_facedata.py)
  
- • [histogram_equilize.py](/Users/hrikdhimandutta/Desktop/project/Attendence_System_using_RealTime_FaceRecognition/histogram_equalize.py)
+   • [histogram_equilize.py](/Users/hrikdhimandutta/Desktop/project/Attendence_System_using_RealTime_FaceRecognition/histogram_equalize.py)
 
- • [recognize_face.py](/Users/hrikdhimandutta/Desktop/project/Attendence_System_using_RealTime_FaceRecognition/recognize_face.py)
+   • [train_face.py](/Users/hrikdhimandutta/Desktop/project/Attendence_System_using_RealTime_FaceRecognition/train_face.py)
  
- • [train_face.py](/Users/hrikdhimandutta/Desktop/project/Attendence_System_using_RealTime_FaceRecognition/train_face.py)
+   • [recognize_face.py](/Users/hrikdhimandutta/Desktop/project/Attendence_System_using_RealTime_FaceRecognition/recognize_face.py)
  
  ##  How To Use? 📝
  
-  1. download or clone the project
+   Steps are given below:
+    
+   1. First we have to collect the face data
+    
+       a) From the camera
+       b) From the video
+    
+   2. Our second step is to pre-processing our image
+    
+       a) Haar-cascade Classifier
+       b) Histogram Equilisaton(Optional)
 
-  2. Import the project to your favourit IDE
-
-  3. Create an python enviroment
-
-  4. Install all the packages
+   3. Train the face data that we have in our databse
  
-  5. Change the mail information
-
-  6. Run the project using the command line or your IDE Run Button
+   4. Recognise them and by their image and give attendance
   
-## Contributors
+ ## Contributors
 
  [Rahul Roy](https://github.com/R4HUL-ROY)
  
  [Shiuli Dey](https://github.com/ShiuliDey)
+ 
  
  [Piyali Bhunia](https://github.com/PIYALI-bhunia)
  
